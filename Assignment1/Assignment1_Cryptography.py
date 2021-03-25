@@ -24,7 +24,7 @@ def process_DES(text):
     print("encrypted: "+ str(encrypted))
     decrypted = des.decrypt(encrypted)
     decrypted = decrypted.decode('utf-8')
-    print("decrypted: "+decrypted)
+
 
 def process_DES3(text):
     des3 = None
